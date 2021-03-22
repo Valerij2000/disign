@@ -1,0 +1,1148 @@
+@charset "UTF-8";
+.wrapper .result-section .result_p {
+  /* Style for "Lorem ipsu" */
+  color: #454545;
+  font-family: "GT Eesti Pro Display";
+  font-size: 18px;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 21px;
+  text-align: center;
+  /* Text style for "Lorem ipsu" */
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+}
+
+.wrapper .result-section .result_header {
+  /* Style for "Что получи" */
+  color: #252525;
+  font-family: Baskerville;
+  font-size: 43px;
+  font-weight: bold;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 50.36px;
+  /* Text style for "Что получи" */
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.wrapper .result-descr-section .list_block_left, .wrapper .result-descr-section .list_block_right {
+  /* Style for "Разовьешь" */
+  font-family: "GT Eesti Pro Display";
+  font-size: 18px;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 21px;
+  /* Text style for "Р, азовьеш" */
+}
+
+.wrapper .request-section .requst-block .left_p, .wrapper .request-section .requst-block .right_p {
+  /* Style for "Топчик по" */
+  color: #212327;
+  font-family: "GT Eesti Pro Display";
+  font-size: 15px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 20px;
+  /* Text style for "Топчик по" */
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+}
+
+.wrapper .result-descr-section .youre_place::after, .wrapper .result-descr-section .youre_place::before {
+  content: attr(data-place);
+  opacity: 0.2;
+}
+
+.wrapper .header-section .nav-phone .phone, .wrapper .home-section .round, .wrapper .result-descr-section .block_seads, .wrapper .works-section .block, .wrapper .format-card-section .block_data_wrap, .wrapper .format-card-section .block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.wrapper {
+  margin-top: 0;
+  /* Styles for the content section */
+}
+
+.wrapper #button {
+  display: inline-block;
+  content: url("../../img/military.svg");
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  -webkit-transition: background-color .3s,  opacity .5s, visibility .5s;
+  transition: background-color .3s,  opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+
+.wrapper #button::after {
+  content: "\f077";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2em;
+  line-height: 50px;
+  color: #fff;
+}
+
+.wrapper #button:hover {
+  cursor: pointer;
+}
+
+.wrapper #button:active {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: 0.45s;
+  transition: 0.45s;
+}
+
+.wrapper #button.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+.wrapper .content {
+  width: 77%;
+  margin: 50px auto;
+  font-family: 'Merriweather', serif;
+  font-size: 17px;
+  color: #6c767a;
+  line-height: 1.9;
+}
+
+@media (min-width: 500px) {
+  .wrapper .content {
+    width: 43%;
+  }
+  .wrapper #button {
+    margin: 30px;
+  }
+}
+
+.wrapper .content h1 {
+  margin-bottom: -10px;
+  color: #03a9f4;
+  line-height: 1.5;
+}
+
+.wrapper .content h3 {
+  font-style: italic;
+  color: #96a2a7;
+}
+
+.wrapper .header-section .bg-light {
+  background-color: #faf8f800 !important;
+}
+
+.wrapper .header-section .nav-link {
+  font-weight: 600;
+}
+
+.wrapper .header-section .nav-link:hover {
+  color: black;
+}
+
+.wrapper .header-section .nav-phone {
+  background-color: white;
+  border-color: white;
+  width: 254px;
+  height: 47px;
+  border-radius: 50px;
+  position: absolute;
+  left: 550px;
+}
+
+.wrapper .header-section .nav-phone .phone {
+  width: 36px;
+  height: 36px;
+  background-color: #7ebbfb;
+  border-radius: 50%;
+}
+
+.wrapper .header-section .nav-phone .callback {
+  /* Style for "обратный з" */
+  color: #a6a5a5;
+  font-family: "GT Eesti Pro Display";
+  font-size: 12px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 12.47px;
+  text-align: left;
+  text-decoration: underline;
+  /* Text style for "обратный з" */
+  font-style: normal;
+  letter-spacing: 0.75px;
+  line-height: normal;
+}
+
+.wrapper .header-section .img_ramka_header {
+  position: absolute;
+  top: 20px;
+  left: 290px;
+  z-index: 100;
+}
+
+.wrapper .header-section .list_header_paper_right {
+  position: absolute;
+  top: 240px;
+  right: 680px;
+  z-index: 100;
+}
+
+.wrapper .header-section .img_holst {
+  position: absolute;
+  left: 520px;
+}
+
+.wrapper .header-section .list_header_paper {
+  position: absolute;
+  left: 450px;
+  top: 130px;
+  z-index: 100;
+}
+
+.wrapper .header-section .online_curse_text {
+  /* Style for "Онлайн кур" */
+  color: #75b6fa;
+  font-family: Baskerville;
+  font-size: 69px;
+  font-weight: bold;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 88.98px;
+  text-align: center;
+  text-transform: uppercase;
+  /* Text style for "О, нлайн к" */
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  position: relative;
+  top: 120px;
+  right: 80px;
+}
+
+.wrapper .header-section .not_typical {
+  /* Style for "не типичны" */
+  color: #ffffff;
+  font-family: Baskerville;
+  font-size: 48px;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 83.24px;
+  text-align: center;
+  /* Text style for "не типичны" */
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  position: relative;
+  top: 120px;
+  right: 80px;
+}
+
+.wrapper .home-section {
+  margin-top: 80px;
+}
+
+.wrapper .home-section .disign_image {
+  margin-top: 50px;
+}
+
+.wrapper .home-section .arrows_img {
+  position: relative;
+  top: -100px;
+  right: 20px;
+}
+
+.wrapper .home-section .netbook_img {
+  position: relative;
+  z-index: 200;
+  top: -150px;
+}
+
+.wrapper .home-section .cosmetic_img {
+  position: relative;
+  z-index: 50;
+  top: -800px;
+  right: -85px;
+}
+
+.wrapper .home-section .book_img {
+  position: relative;
+  z-index: 40;
+  top: -970px;
+  right: -790px;
+}
+
+.wrapper .home-section .metaball_img {
+  position: relative;
+  z-index: 20;
+  top: -890px;
+  right: -320px;
+}
+
+.wrapper .home-section .paper_plane {
+  margin-top: 100px;
+  z-index: 660;
+}
+
+.wrapper .home-section .skills_text {
+  white-space: nowrap;
+  color: #454545;
+  font-family: "GT Eesti Pro Display";
+  font-size: 16px;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 21px;
+  text-align: left;
+  /* Text style for "Примеры мо" */
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  margin-top: 210px;
+  margin-left: 120px;
+  -webkit-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
+
+.wrapper .home-section .line {
+  position: relative;
+  top: -320px;
+  left: 55px;
+}
+
+.wrapper .home-section .round {
+  position: relative;
+  top: -320px;
+  left: 21px;
+  width: 70px;
+  height: 70px;
+  border: 2px solid #7ebbfb;
+  border-radius: 50%;
+}
+
+.wrapper .home-section .round .min_round {
+  width: 36px;
+  height: 36px;
+  background-color: #7ebbfb;
+  border-radius: 50%;
+}
+
+.wrapper .descr-home-section {
+  margin-top: -800px;
+}
+
+.wrapper .descr-home-section .descr_text {
+  /* Style for "Курс для н" */
+  color: #8f8f8f;
+  font-family: "GT Eesti Pro Display";
+  font-size: 20px;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 21px;
+  text-align: left;
+  /* Text style for "К, урс для" */
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+}
+
+.wrapper .descr-home-section .btn {
+  width: 213px;
+  margin-left: 20px;
+  height: 49px;
+  border-radius: 24px;
+  border: 1px solid #6aaff8;
+  background-color: #6aaff8;
+  font-weight: 1000;
+}
+
+.wrapper .descr-home-section .diplay_col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.wrapper .descr-home-section .view_catalog {
+  margin-left: 50px;
+  margin-top: 30px;
+  color: #454545;
+  font-family: "GT Eesti Pro Display";
+  font-size: 15px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 20px;
+  text-align: left;
+  /* Text style for "Посмотреть" */
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+}
+
+.wrapper .descr-home-section .arrow_upper {
+  position: relative;
+  top: -70px;
+  left: -90px;
+}
+
+.wrapper .offer-section {
+  margin-top: 120px;
+}
+
+.wrapper .offer-section .offer-header {
+  /* Style for "Почему это" */
+  color: #252525;
+  font-family: Baskerville;
+  font-size: 31px;
+  font-weight: bold;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 36.47px;
+  /* Text style for "Почему это" */
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  margin-bottom: 80px;
+}
+
+.wrapper .offer-section .offer_p {
+  /* Style for "Для новичк" */
+  color: #454545;
+  font-family: "GT Eesti Pro Display";
+  font-size: 19px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 21px;
+  text-align: left;
+  /* Text style for "Д, ля нови" */
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.wrapper .offer-section .offer_p_last {
+  color: #454545;
+  font-family: "GT Eesti Pro Display";
+  font-size: 19px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 21px;
+  text-align: left;
+  /* Text style for "Д, ля нови" */
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  margin-bottom: 30px;
+  margin-top: 18px;
+}
+
+.wrapper .offer-section .offer_p_first {
+  color: #454545;
+  font-family: "GT Eesti Pro Display";
+  font-size: 19px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 21px;
+  text-align: left;
+  /* Text style for "Д, ля нови" */
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  margin-bottom: 30px;
+  margin-top: 26px;
+}
+
+.wrapper .offer-section .offer_descr {
+  /* Style for "Курс рассч" */
+  color: #454545;
+  font-family: "GT Eesti Pro Display";
+  font-size: 16px;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 21px;
+  text-align: left;
+  /* Text style for ", Курс рас" */
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+}
+
+.wrapper .charts-section {
+  margin-top: 130px;
+}
+
+.wrapper .charts-section .ramka_block {
+  border: 9px solid #6baef3;
+  height: 700px;
+}
+
+.wrapper .charts-section .charts {
+  position: relative;
+  left: -120px;
+  top: -220px;
+  z-index: 2000;
+}
+
+.wrapper .charts-section .patch_up {
+  position: relative;
+  top: -780px;
+  left: 1160px;
+}
+
+.wrapper .charts-section .patch_down {
+  position: relative;
+  bottom: 80px;
+}
+
+.wrapper .charts-section .block_text {
+  margin-top: 150px;
+}
+
+.wrapper .charts-section .header_curse {
+  /* Style for "Что будет" */
+  color: #252525;
+  font-family: Baskerville;
+  font-size: 31px;
+  font-weight: bold;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 36.47px;
+  text-align: left;
+  /* Text style for "Что будет" */
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+}
+
+.wrapper .charts-section .descr_curse {
+  /* Style for "Курс для н" */
+  color: #454545;
+  font-family: "GT Eesti Pro Display";
+  font-size: 16px;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 21px;
+  text-align: left;
+  /* Text style for "К, урс для" */
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+}
+
+.wrapper .charts-section .block_arrow img {
+  position: relative;
+  top: -160px;
+  left: 80px;
+}
+
+.wrapper .charts-section .block_card {
+  /* Style for "Прямоуголь" */
+  width: 394px;
+  height: 263px;
+  -webkit-box-shadow: -1px 4px 45px 1px rgba(150, 150, 150, 0.2);
+          box-shadow: -1px 4px 45px 1px rgba(150, 150, 150, 0.2);
+  background-color: #ffffff;
+  position: relative;
+  top: -310px;
+  left: 140px;
+  margin-right: 18px;
+}
+
+.wrapper .charts-section .block_card .in_card_header {
+  color: #454545;
+  font-family: "GT Eesti Pro Display";
+  font-size: 20px;
+  font-weight: 800;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 21px;
+  text-align: left;
+  /* Text style for "Лекционные" */
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+}
+
+.wrapper .charts-section .block_card .in_card_descr {
+  color: #454545;
+  font-family: "GT Eesti Pro Display";
+  font-size: 16px;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 21px;
+  text-align: left;
+  /* Text style for "С,  ними в" */
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+}
+
+.wrapper .result-section .result_header {
+  margin-bottom: 50px;
+}
+
+.wrapper .result-descr-section .list_block_left {
+  text-align: right;
+}
+
+.wrapper .result-descr-section .list_block_left .item {
+  margin-bottom: 20px;
+  font-weight: 500;
+  list-style-type: none;
+}
+
+.wrapper .result-descr-section .list_block_left .item::after {
+  content: url("../img/square.svg");
+  position: relative;
+  right: -35px;
+  top: -10px;
+}
+
+.wrapper .result-descr-section .list_block_right {
+  text-align: left;
+}
+
+.wrapper .result-descr-section .list_block_right .item {
+  margin-bottom: 20px;
+  font-weight: 500;
+  list-style-type: none;
+}
+
+.wrapper .result-descr-section .list_block_right .item::before {
+  content: url("../img/square.svg");
+  position: relative;
+  left: -35px;
+}
+
+.wrapper .result-descr-section .sofa-block .ph {
+  position: relative;
+  left: 100px;
+}
+
+.wrapper .result-descr-section .sofa-block .amchair {
+  position: relative;
+  top: -90px;
+}
+
+.wrapper .result-descr-section .youre_place {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 72px;
+  font-stretch: ultra-condensed;
+  letter-spacing: 13px;
+  position: relative;
+  top: -170px;
+}
+
+.wrapper .result-descr-section .youre_place::after {
+  margin-left: -590px;
+}
+
+.wrapper .result-descr-section .youre_place::before {
+  margin-right: -600px;
+}
+
+.wrapper .request-section .requst-block {
+  margin-top: -120px;
+  margin-right: 65px;
+}
+
+.wrapper .request-section .requst-block .left_p {
+  text-align: right;
+}
+
+.wrapper .request-section .requst-block .btn {
+  /* Style for "Кнопка" */
+  width: 213px;
+  margin-left: 20px;
+  height: 49px;
+  -webkit-box-shadow: -6px 13px 24px rgba(16, 122, 235, 0.28);
+          box-shadow: -6px 13px 24px rgba(16, 122, 235, 0.28);
+  border-radius: 24px;
+  border: 1px solid #6aaff8;
+  background-color: #6aaff8;
+  background-image: linear;
+}
+
+.wrapper .request-section .requst-block .right_p {
+  text-align: left;
+}
+
+.wrapper .card-section .block_card {
+  /* Style for "Прямоуголь" */
+  min-height: 539px;
+  background-color: #f2f2f2;
+}
+
+.wrapper .card-section .block_card .img-pen {
+  position: absolute;
+}
+
+.wrapper .card-section .block_card .img-corona {
+  width: 320px;
+}
+
+.wrapper .card-section .block_card .img-design {
+  position: absolute;
+}
+
+@media (min-width: 1500px) {
+  .wrapper .card-section .block_card .img-design {
+    left: 750px;
+  }
+}
+
+@media (min-width: 1800px) {
+  .wrapper .card-section .block_card .img-design {
+    left: 1030px;
+  }
+}
+
+.wrapper .card-section .block_card .img_money {
+  margin-top: 105px;
+  margin-left: 30px;
+}
+
+.wrapper .card-section .block_card .card_header {
+  /* Style for "1. Введени" */
+  color: #252525;
+  font-family: Baskerville;
+  font-size: 26px;
+  font-weight: bold;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 43.4px;
+  text-align: left;
+  /* Text style for "1. Введени" */
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+}
+
+.wrapper .card-section .block_card .card_body li {
+  margin-top: 20px;
+  list-style-type: none;
+  /* Style for "Вводный эф" */
+  color: #454545;
+  font-family: "GT Eesti Pro Display";
+  font-size: 17px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: left;
+  /* Text style for ", Вводный" */
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+}
+
+.wrapper .works-section .carousel-control-prev {
+  margin-left: 11px;
+}
+
+.wrapper .works-section .carousel-control-next {
+  margin-right: 5px;
+}
+
+.wrapper .works-section .block_wrap {
+  margin-top: 290px;
+}
+
+.wrapper .works-section .text_block .view_profile {
+  margin-right: 50px;
+  white-space: nowrap;
+  color: #333333;
+  font-family: "Muller Extra Bold";
+  font-size: 17px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 18.53px;
+  text-align: left;
+  /* Text style for "П, осмотре" */
+  font-family: "Muller Extra Bold";
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: 0.87px;
+  line-height: normal;
+  -webkit-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
+
+.wrapper .works-section .text_block .view_profile span {
+  /* Text style for "переходи н" */
+  font-family: "Muller Light";
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: 0.87px;
+  line-height: normal;
+}
+
+.wrapper .works-section .round {
+  width: 31px;
+  height: 31px;
+  border: 2px solid black;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.wrapper .works-section .round:hover {
+  cursor: pointer;
+}
+
+.wrapper .works-section .block_white {
+  right: 30px;
+  position: relative;
+  -webkit-box-shadow: 0 14px 14px white;
+          box-shadow: 0 14px 14px white;
+  width: 100px;
+  height: 30px;
+}
+
+.wrapper .works-section .img-slider {
+  width: 250px;
+  height: 250;
+}
+
+.wrapper .works-section .youTube {
+  margin-top: 80px;
+}
+
+.wrapper .works-section .link_public {
+  margin-top: 97px;
+}
+
+.wrapper .works-section .link_public p {
+  /* Style for "Посмотри р" */
+  width: 137px;
+  height: 24px;
+  color: #333333;
+  font-family: "GT Eesti Pro Display - Thin";
+  font-size: 11px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 13.12px;
+  text-align: left;
+  /* Text style for "П, осмотри" */
+  font-family: "GT Eesti Pro Display - Thin";
+  font-weight: 100;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+}
+
+.wrapper .works-section .link_public a {
+  /* Text style for "наш канал" */
+  font-family: "GT Eesti Pro Display";
+  font-weight: 800;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-decoration: underline;
+  color: #333333;
+}
+
+.wrapper .format-study-section {
+  margin-top: 190px;
+}
+
+.wrapper .format-study-section .format_header {
+  /* Style for "Выберите у" */
+  width: 414px;
+  height: 94px;
+  color: #252525;
+  font-family: Baskerville;
+  font-size: 43px;
+  font-weight: bold;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 50.36px;
+  text-align: left;
+  /* Text style for "Выберите у" */
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+}
+
+.wrapper .format-study-section .format_descr {
+  /* Style for "Мы раздели" */
+  color: #454545;
+  font-family: "GT Eesti Pro Display";
+  font-size: 18px;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 21px;
+  text-align: left;
+  /* Text style for "Мы раздели" */
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+}
+
+.wrapper .format-card-section {
+  margin-top: 120px;
+}
+
+.wrapper .format-card-section .block_format {
+  border-top: 2px solid #f8eacf;
+  border-left: 2px solid #f8eacf;
+  -o-border-image: linear-gradient(to bottom, #e0a42f, rgba(224, 164, 47, 0.1) 90%) 1;
+     border-image: -webkit-gradient(linear, left top, left bottom, from(#e0a42f), color-stop(90%, rgba(224, 164, 47, 0.1))) 1;
+     border-image: linear-gradient(to bottom, #e0a42f, rgba(224, 164, 47, 0.1) 90%) 1;
+}
+
+.wrapper .format-card-section .block_format .format_header {
+  /* Style for "Самостояте" */
+  margin-top: 20px;
+  color: #1b4067;
+  font-family: Baskerville;
+  font-size: 28px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 18px;
+  text-align: center;
+  /* Text style for "Самостояте" */
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+}
+
+.wrapper .format-card-section .block_format .list_descr img {
+  margin-right: 20px;
+}
+
+.wrapper .format-card-section .block_format .list_descr li {
+  /* Style for "Доступ ко" */
+  color: #515050;
+  margin-top: 10px;
+  font-family: "Muller Thin";
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 16px;
+  text-align: justify;
+  /* Text style for "Доступ ко" */
+  font-family: "Muller Regular";
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  /* Text style for "Сертификат" */
+  font-family: "Muller Thin";
+  font-weight: 100;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  list-style: none;
+}
+
+.wrapper .format-card-section .block_format .list_descr .dis {
+  opacity: 0.3;
+}
+
+.wrapper .format-card-section .start_header {
+  /* Style for "Старт обуч" */
+  color: #1b4067;
+  font-family: Baskerville;
+  font-size: 22px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 18px;
+  text-align: center;
+  /* Text style for "Старт обуч" */
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+}
+
+.wrapper .format-card-section .block_data {
+  padding-top: 20px;
+  padding-left: 20px;
+  width: 307px;
+  height: 53px;
+  border: 1px solid #ebebeb;
+}
+
+.wrapper .format-card-section .block_data .data_p {
+  color: #515050;
+  font-family: "Muller Regular";
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 16px;
+  text-align: justifyLeft;
+  /* Text style for "20 февраля" */
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+}
+
+.wrapper .format-card-section .cost_heder {
+  /* Style for "Стоимость" */
+  opacity: 0.63;
+  color: #333333;
+  font-family: "GT Eesti Pro Display - Ultra Light";
+  font-size: 45px;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 44px;
+  text-align: center;
+  /* Text style for "Стоимость" */
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  opacity: 0.2;
+}
+
+.wrapper .format-card-section .block_price {
+  position: relative;
+  top: -30px;
+  z-index: 210;
+  /* Style for "Форма блок" */
+  width: 294px;
+  height: 117px;
+  -webkit-box-shadow: 0 27px 54px rgba(0, 0, 0, 0.11);
+          box-shadow: 0 27px 54px rgba(0, 0, 0, 0.11);
+  border-radius: 18px 0;
+  background-color: #ffffff;
+}
+
+.wrapper .format-card-section .block_price .price {
+  /* Style for "40 000₽" */
+  color: #6badf2;
+  font-family: "GT Eesti Pro Display";
+  font-size: 45px;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: center;
+  /* Text style for "40 000" */
+  font-family: "GT Eesti Pro Display - Bold";
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  /* Text style for "₽" */
+  font-family: "GT Eesti Pro Display - Medium";
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+}
+
+.wrapper .format-card-section .block_price .descr_price {
+  /* Style for "Оплата час" */
+  color: #454444;
+  font-family: "GT Eesti Pro Display";
+  font-size: 15px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 17px;
+  text-align: center;
+  /* Text style for "Оплата час" */
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+}
+
+.wrapper .format-card-section .block_free_place {
+  /* Style for "Свободных" */
+  color: #1b4067;
+  font-family: Baskerville;
+  font-size: 22px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 18px;
+  text-align: center;
+}
+
+.wrapper .format-card-section .block_free_place .free_place {
+  font-size: 22px;
+  /* Text style for "Свободных" */
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+}
+
+.wrapper .format-card-section .block_free_place .count_free {
+  /* Text style for ", 4 из 10" */
+  font-size: 22px;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+}
+
+.wrapper .footer-section {
+  margin-top: 200px;
+  background-color: #454545;
+  min-height: 300px;
+}
+/*# sourceMappingURL=style.css.map */
