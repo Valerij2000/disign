@@ -85,7 +85,7 @@
 
 .wrapper #button {
   display: inline-block;
-  content: url("../img/military.svg");
+  content: url("../../img/military.svg");
   width: 50px;
   height: 50px;
   text-align: center;
@@ -93,10 +93,8 @@
   position: fixed;
   bottom: 30px;
   right: 30px;
-  -webkit-transition: background-color .3s, 
- opacity .5s, visibility .5s;
-  transition: background-color .3s, 
- opacity .5s, visibility .5s;
+  -webkit-transition: background-color .3s,  opacity .5s, visibility .5s;
+  transition: background-color .3s,  opacity .5s, visibility .5s;
   opacity: 0;
   visibility: hidden;
   z-index: 1000;
@@ -184,6 +182,11 @@
   height: 36px;
   background-color: #7ebbfb;
   border-radius: 50%;
+}
+
+.wrapper .header-section .nav-phone .header_phone:hover {
+  color: #5b5bf3;
+  cursor: pointer;
 }
 
 .wrapper .header-section .nav-phone .callback {
@@ -944,13 +947,11 @@
   line-height: normal;
 }
 
-.wrapper .format-card-section {
-  margin-top: 120px;
-}
-
 .wrapper .format-card-section .block_format {
+  margin-top: 100px;
   border-top: 2px solid #f8eacf;
   border-left: 2px solid #f8eacf;
+  border-right: 2px solid #f8eacf;
   -o-border-image: linear-gradient(to bottom, #e0a42f, rgba(224, 164, 47, 0.1) 90%) 1;
      border-image: -webkit-gradient(linear, left top, left bottom, from(#e0a42f), color-stop(90%, rgba(224, 164, 47, 0.1))) 1;
      border-image: linear-gradient(to bottom, #e0a42f, rgba(224, 164, 47, 0.1) 90%) 1;
