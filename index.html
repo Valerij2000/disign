@@ -16,26 +16,20 @@
   <link rel="shortcut icon"
   href="favicon.png">
 
-	<!-- jQuery -->
-
-<script src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
-
-	<!-- Подключаем Bootstrap -->
+	<!-- Подключаем Style Bootstrap -->
 
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
-	
+  <!-- Animate CSS -->
 
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
 
-	<!-- Стили и скрипты  -->
-
-	<link rel="stylesheet" href="css/style.css">
-	
-	<!-- MyScript JS -->
-
-	<script src="js/script.js" defer></script>
-	
+   <!-- Стили  -->
+  
+   <link rel="stylesheet" href="css/style.css">
 
 </head>
 <body>
@@ -55,7 +49,6 @@
       <section class="header-section"> 
         <img class="img_ramka_header" src="img/header_ramka.png" alt="">
         <img class="list_header_paper" src="img/Element.png" alt="">
-        <img class="img_holst" src="img/holst.png" alt="">
         <img class="list_header_paper_right" src="img/Element_right.png" alt="">
 <div class="container">
 
@@ -65,8 +58,8 @@
                 </button>
 
                 <div class="row">
-                  <div class="col-xl-2 offset-xl-11">
-                    <div class="collapse navbar-collapse " id="navbarNav">
+                  <div class="col-xl-2 col-lg-2 offset-xl-11 offset-lg-11">
+                    <div class="collapse navbar-collapse mt-3" id="navbarNav">
                       <ul class="navbar-nav">
                         <li class="nav-item">
                           <a class="nav-link" aria-current="page"  href="javascript:void(0)" onclick="scrollDownUp('#service');">Услуги</a>
@@ -77,16 +70,19 @@
                         <li class="nav-item">
                           <a class="nav-link" href="javascript:void(0)" onclick="scrollDownUp('#notes');">Статьи</a>
                         </li>
+                         <li class="nav-item">
+                          <a class="nav-link" href="javascript:void(0)" onclick="scrollDownUp('#notes');">Меню</a>
+                        </li>
                         <li class="nav-phone">
                           <div class="row">
-                            <div style="margin-left: 10px;" class="col-xl-2 mt-1">
+                            <div style="margin-left: 10px;" class="col-xl-2 mt-1 col-lg-2">
                               <div class="phone">
                                 <img src="img/phone_icon.png" alt="">
                               </div>
                             </div>
-                            <div class="col-xl-8 offset-xl-1">
-                             <span style="font-weight: 800;" class="header_phone">7 (343) 300 90 95</span>
-                              <a href="#"><p class="callback">обратный звонок</p></a>
+                            <div class="col-xl-8 col-lg-8 offset-lg-1 offset-xl-1">
+                              <span style="font-weight: 800;" class="header_phone">7 (343) 300 90 95</span>
+                                <a href="#"><p class="callback">обратный звонок</p></a>
                             </div>
                           </div>
                         </li>
@@ -99,7 +95,7 @@
           <!-- Home description -->
 
           <div class="row">
-            <div class="col-xl-12">
+            <div class="col-xl-12 col-lg-12">
               <h1 class="online_curse_text">Онлайн курс</h1>
               <h2 class="not_typical">не типичный</h2>
             </div>
@@ -116,19 +112,23 @@
 
 
         <div class="row">
-          <img class="disign_image" src="img/disign.png" alt="">
-          <div class="col-xl-3 offset-xl-2 ">
-            <img class="arrows_img" src="img/arrows_right.png" alt="">
+          <div class="col-xl-3 col-lg-3 offset-xl-2 offset-lg-2">
+            <p class="text__disign__left">Топчик по прокачке <br>
+              графики и веб-дизайна.</p>
+            <img class="arrows_img__left" src="img/arrows_right.png" alt="">
           </div>
-          <div class="col-xl-3 offset-xl-3">
-            <img class="arrows_img" src="img/arrows_right.png" alt="">
+          <h1 class="header__disign__title">дизайн</h1>
+          <div class="col-xl-3 col-lg-3 offset-lg-2 offset-xl-3">
+            <img class="arrows_img__right" src="img/arrows_right.png" alt="">
+            <p class="text__disign__right">Топчик по прокачке <br>
+              графики и веб-дизайна.</p>
           </div>
         </div>
 
         <div class="row">
 
 
-          <div class="col-xl-1">
+          <div class="col-xl-1 col-lg-1 plane__block">
             <img class="paper_plane" src="img/Paper_Airplane.png" alt="">
             <p class="skills_text">Примеры моих работ, ну и 
               <br>
@@ -143,7 +143,7 @@
           </div>
 
 
-          <div class="col-xl-11">
+          <div class="col-xl-11 col-lg-11 block__image__things">
             <img class="netbook_img" src="img/notebook.png" alt="">
             <img class="metaball_img" src="img/MetaBall.png" alt="">
             <img class="cosmetic_img" src="img/cosmetic.png" alt="">
@@ -163,8 +163,8 @@
     <section class="descr-home-section">
       <div class="container">
         <div class="row">
-          <div class="col-xl-6">
-            <img class="mb-5" src="img/be.png" alt="">
+          <div class="col-xl-6 col-lg-6">
+            <img class="mb-5 mt-5" src="img/be.png" alt="">
             <p class="descr_text">
               Курс для новичков, желающих начать зарабатывать 
               на фрилансе. После 6 недель вас ждет: уверенное владение 
@@ -174,18 +174,18 @@
               Если выживешь у меня, то справишься и на фрилансе.
             </p>
           </div>
-          <div class="col-xl-4 mt-5">
+          <div class="col-xl-4 col-lg-4 mt-5">
            <div style="margin-left: 50px;">
             <button type="button" class="btn btn-primary">Оставьте заявку</button>
             <div class="diplay_col">
               <p class="view_catalog">Посмотреть весь 
                 <br>
               каталог оборудования</p>
-              <img style="margin-left: 22px;" src="img/arrows_right.png" alt="">
+              <img class="arrows__view__catalog" src="img/arrows_right.png" alt="">
             </div>
            </div>
           </div>
-          <div class="col-xl-2">
+          <div class="col-xl-2 col-lg-2">
             <img class="arrow_upper" src="img/arrow_upper.png" alt="">
           </div>
         </div>
@@ -197,13 +197,13 @@
       <section class="offer-section">
         <div class="container">
           <div class="row">
-            <div class="col-xl-8 offset-xl-2">
+            <div class="col-xl-8 col-lg-8 offset-xl-2 offset-lg-2">
               <h3 class="offer-header">Почему этот курс — твой шанс</h3>
               
             </div>
           </div>
           <div class="row">
-            <div class="col-xl-3 offset-xl-2">
+            <div class="col-xl-3 col-lg-3 offset-xl-2 offset-lg-2">
               <img src="img/icon1.svg" alt="">
               <p class="offer_p_first">Для новичков</p>
               <p class="offer_descr">
@@ -217,7 +217,7 @@
             </div>
 
             
-            <div class="col-xl-3 ">
+            <div class="col-xl-3 col-lg-3">
               <img src="img/icon2.svg" alt="">
               <p class="offer_p">Для новичков</p>
               <p class="offer_descr">
@@ -230,7 +230,7 @@
                 веб-дизайнером</p>
             </div>
 
-            <div class="col-xl-3">
+            <div class="col-xl-3 col-lg-3">
               <img src="img/icon3.svg" alt="">
               <p class="offer_p_last" >Для новичков</p>
               <p class="offer_descr">
@@ -249,30 +249,35 @@
 
 
 
+
       <section class="charts-section">
-        <div class="container-fluid">
+        <div class="container-fluid"> 
             <div class="row">
               
 
-                <div class="col-xl-9 offset-xl-1 ramka_block">
+                <div class="col-xl-7 col-lg-7 offset-lg-1 offset-xl-1 ramka_block">
 
                   <div class="row">
 
-                    <div class="col-xl-6">
+                    <div class="col-xl-6 col-lg-6">
                       <img class="charts" src="img/charts.png" alt="">
                       <img class="patch_up" src="img/Element.png" alt="">
                       <img class="patch_down" src="img/Element_right.png" alt="">
                     </div>
 
 
-                    <div class="col-xl-4">
+                    <div class="col-xl-6 col-lg-6">
                              <div class="block_text">
                               <p class="header_curse">Что будет входить 
                                 <br> в курс?</p>
-                               <p class="descr_curse">Курс для новичков, желающих начать зарабатывать 
+                               <p class="descr_curse">Курс для новичков, желающих начать зарабатывать
+                                 <br> 
                                  на фрилансе. После 6 недель вас ждет: уверенное 
+                                 <br>
                                  владение Фигмой, поймете как работать в 
-                                 фотошопе, делать анимации </p>
+                                 фотошопе,
+                                 <br>
+                                  делать анимации </p>
                              </div>
                     </div>
 
@@ -292,86 +297,181 @@
                
                 
                   <div class="block_arrow">
-                    <img src="img/arrows_right.png" alt="">
+                    <img id="arrowNext" src="img/arrows_right.png" alt="">
                   </div>
 
-                  <div class="block_card">
-                    <div class="row mt-5">
-                      <div class="col-xl-3 offset-xl-1">
-                        <img src="img/shoes.png" alt="">
-                      </div>
-                      <div class="col-xl-8">
-                        <p class="in_card_header mt-5">Лекционные 
-                          <br>
-                          видео-записи</p>
-                      </div>
-                    </div>
-                    <div class="row">
-                      <div class="col-xl-10 offset-xl-1">
-                        <p class="in_card_descr mt-1">С ними вы лучше воспримите иусвоите 
-                          информациюС ними вы лучше воспримите
-                          и усвоите информацию</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="block_card">
-                    <div class="row mt-5">
-                      <div class="col-xl-3 offset-xl-1">
-                        <img src="img/shoes.png" alt="">
-                      </div>
-                      <div class="col-xl-8">
-                        <p class="in_card_header mt-5">Лекционные 
-                          <br>
-                          видео-записи</p>
-                      </div>
-                    </div>
-                    <div class="row">
-                      <div class="col-xl-10 offset-xl-1">
-                        <p class="in_card_descr mt-1">С ними вы лучше воспримите иусвоите 
-                          информациюС ними вы лучше воспримите
-                          и усвоите информацию</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="block_card">
-                    <div class="row mt-5">
-                      <div class="col-xl-3 offset-xl-1">
-                        <img src="img/shoes.png" alt="">
-                      </div>
-                      <div class="col-xl-8">
-                        <p class="in_card_header mt-5">Лекционные 
-                          <br>
-                          видео-записи</p>
-                      </div>
-                    </div>
-                    <div class="row">
-                      <div class="col-xl-10 offset-xl-1">
-                        <p class="in_card_descr mt-1">С ними вы лучше воспримите иусвоите 
-                          информациюС ними вы лучше воспримите
-                          и усвоите информацию</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="block_card">
-                    <div class="row mt-5">
-                      <div class="col-xl-3 offset-xl-1">
-                        <img src="img/shoes.png" alt="">
-                      </div>
-                      <div class="col-xl-8">
-                        <p class="in_card_header mt-5">Лекционные 
-                          <br>
-                          видео-записи</p>
-                      </div>
-                    </div>
-                    <div class="row">
-                      <div class="col-xl-10 offset-xl-1">
-                        <p class="in_card_descr mt-1">С ними вы лучше воспримите иусвоите 
-                          информациюС ними вы лучше воспримите
-                          и усвоите информацию</p>
-                      </div>
-                    </div>
-                  </div>
-                
+
+
+
+
+                  
+             <div class="block_card__">
+              <div class="row mt-5">
+                <div class="col-xl-3 col-lg-3 offset-lg-1 offset-xl-1">
+                  <img src="img/shoes.png" alt="">
+                </div>
+                <div class="col-xl-8 col-lg-8">
+                  <p class="in_card_header mt-5">Лекционные 
+                    <br>
+                    видео-записи</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-xl-10 col-lg-10 offset-lg-1 offset-xl-1">
+                  <p class="in_card_descr mt-1">С ними вы лучше воспримите иусвоите 
+                    информациюС ними вы лучше воспримите
+                    и усвоите информацию</p>
+                </div>
+              </div>
+            </div>
+
+          
+
+            <div class="block_card__">
+              <div class="row mt-5">
+                <div class="col-xl-3 col-lg-3 offset-lg-1 offset-xl-1">
+                  <img src="img/shoes.png" alt="">
+                </div>
+                <div class="col-xl-8 col-lg-8">
+                  <p class="in_card_header mt-5">Лекционные 
+                    <br>
+                    видео-записи</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-xl-10 col-lg-10 offset-lg-1 offset-xl-1">
+                  <p class="in_card_descr mt-1">С ними вы лучше воспримите иусвоите 
+                    информациюС ними вы лучше воспримите
+                    и усвоите информацию</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="block_card__">
+              <div class="row mt-5">
+                <div class="col-xl-3 col-lg-3 offset-lg-1 offset-xl-1">
+                  <img src="img/shoes.png" alt="">
+                </div>
+                <div class="col-xl-8 col-lg-8">
+                  <p class="in_card_header mt-5">Лекционные 
+                    <br>
+                    видео-записи</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-xl-10 col-lg-10 offset-lg-1 offset-xl-1">
+                  <p class="in_card_descr mt-1">С ними вы лучше воспримите иусвоите 
+                    информациюС ними вы лучше воспримите
+                    и усвоите информацию</p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="block_card__">
+              <div class="row mt-5">
+                <div class="col-xl-3 col-lg-3 offset-lg-1 offset-xl-1">
+                  <img src="img/shoes.png" alt="">
+                </div>
+                <div class="col-xl-8 col-lg-8">
+                  <p class="in_card_header mt-5">Лекционные 
+                    <br>
+                    видео-записи</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-xl-10 col-lg-10 offset-lg-1 offset-xl-1">
+                  <p class="in_card_descr mt-1">С ними вы лучше воспримите иусвоите 
+                    информациюС ними вы лучше воспримите
+                    и усвоите информацию</p>
+                </div>
+              </div>
+            </div>
+
+
+            <!-- Next Slide First-->
+
+
+            <div class="block_card_next animate__animated animate__fadeInLeft">
+              <div class="row mt-5">
+                <div class="col-xl-3 col-lg-3 offset-lg-1 offset-xl-1">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/EBay_logo.svg/800px-EBay_logo.svg.png" alt="">
+                </div>
+                <div class="col-xl-8 col-lg-8">
+                  <p class="in_card_header mt-5">Лекционные 
+                    <br>
+                    new-записи</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-xl-10 col-lg-10 offset-lg-1 offset-xl-1">
+                  <p class="in_card_descr mt-1">С ними вы лучше воспримите иусвоите 
+                    информациюС ними вы лучше воспримите
+                    и усвоите информацию</p>
+                </div>
+              </div>
+            </div>
+
+          
+
+            <div class="block_card_next  animate__animated animate__fadeInLeft">
+              <div class="row mt-5">
+                <div class="col-xl-3 col-lg-3 offset-lg-1 offset-xl-1">
+                  <img src="https://upload.wikimedia.org/wikipedia/ru/thumb/2/24/WWF_logo.svg/518px-WWF_logo.svg.png" alt="">
+                </div>
+                <div class="col-xl-8 col-lg-8">
+                  <p class="in_card_header mt-5">Лекционные 
+                    <br>
+                    new-записи</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-xl-10 col-lg-10 offset-lg-1 offset-xl-1">
+                  <p class="in_card_descr mt-1">С ними вы лучше воспримите иусвоите 
+                    информациюС ними вы лучше воспримите
+                    и усвоите информацию</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="block_card_next">
+              <div class="row mt-5">
+                <div class="col-xl-3 col-lg-3 offset-lg-1 offset-xl-1">
+                  <img src="https://cdn.worldvectorlogo.com/logos/tiktok-logo-2--1.svg" alt="">
+                </div>
+                <div class="col-xl-8 col-lg-8">
+                  <p class="in_card_header mt-5">Лекционные 
+                    <br>
+                    new-записи</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-xl-10 col-lg-10 offset-lg-1 offset-xl-1">
+                  <p class="in_card_descr mt-1">С ними вы лучше воспримите иусвоите 
+                    информациюС ними вы лучше воспримите
+                    и усвоите информацию</p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="block_card_next">
+              <div class="row mt-5">
+                <div class="col-xl-3 col-lg-3 offset-lg-1 offset-xl-1">
+                  <img src="https://svgsilh.com/svg/1363011.svg" alt="">
+                </div>
+                <div class="col-xl-8 col-lg-8">
+                  <p class="in_card_header mt-5">Лекционные 
+                    <br>
+                    new-записи</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-xl-10 col-lg-10 offset-lg-1 offset-xl-1">
+                  <p class="in_card_descr mt-1">С ними вы лучше воспримите иусвоите 
+                    информациюС ними вы лучше воспримите
+                    и усвоите информацию</p>
+                </div>
+              </div>
+            </div>
               
 
                 
@@ -383,12 +483,12 @@
     <section class="result-section mb-5" style="margin-top: -200px;">
       <div class="container">
         <div class="row">
-          <div class="col-xl-6 offset-xl-3">
-            <p class="result_header">Что получишь по итогу?</p>
+          <div class="col-xl-6 col-lg-6 offset-lg-3 offset-xl-3">
+            <p class="result__program">Что получишь по итогу?</p>
           </div>
         </div>
         <div class="row">
-          <div class="col-xl-8 offset-xl-2">
+          <div class="col-xl-8 col-lg-8 offset-lg-2 offset-xl-2">
             <p class="result_p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
               et dolore magna aliqua. Ut enim ad minim veniam, qui</p>
           </div>
@@ -401,7 +501,7 @@
     <section class="result-descr-section" id="notes">
       <div class="container">
         <div class="row">
-          <div class="col-xl-4">
+          <div class="col-xl-4 col-lg-4">
             <div class="list_block_left">
               <ul>
                 <li class="item">Разовьешь визуальный вкус и научишься 
@@ -426,13 +526,13 @@
               <img src="img/down_arrows.svg" style="margin-top: 140px;" alt="">
             </div>
           </div>
-          <div class="col-xl-4">
+          <div class="col-xl-4 col-lg-4">
             <div class="sofa-block">
               <img class="ph" src="img/photoshop.svg" alt="">
               <img class="amchair" src="img/armchair.svg" alt="">
             </div>
           </div>
-          <div class="col-xl-4">
+          <div class="col-xl-4 col-lg-4">
             <div class="list_block_right">
               <ul>
                 <li class="item">Получите ответы на юридические вопросы 
@@ -453,14 +553,14 @@
                 </li>
               </ul>
 
-              <img src="img/up_arrows.svg"  alt="">
+              <img class="img__left__upper" src="img/up_arrows.svg"  alt="">
             </div>
           </div>
         </div>
 
 
         <div class="row">
-          <div class="col-xl-12 ">
+          <div class="col-xl-12 col-lg-12">
             <p data-place="Твое место" class="youre_place">Твое место</p>
           </div>
         </div>
@@ -472,14 +572,16 @@
     <section class="request-section" id="catalog">
       <div class="container">
           <div class="row requst-block" >
-              <div class="col-xl-2 offset-xl-3 mt-2">
+              <div class="col-xl-2 col-lg-2 offset-lg-3 offset-xl-3 mt-2">
                 <p class="left_p">Топчик по прокачке графики и веб-дизайна.</p>
               </div>
-              <div class="col-xl-3 ">
+              <div class="col-xl-3 col-lg-3">
                 <button type="button" class="btn btn-primary">Отправьте заявку</button>
               </div>
-              <div class="col-xl-2 mt-2">
-                <p class="right_p">Топчик по прокачке графики и веб-дизайна.</p>
+              <div class="col-xl-2 col-lg-3 mt-2">
+                <p class="right_p">Топчик по прокачке 
+                  <br>
+                  графики и веб-дизайна.</p>
               </div>
           </div>
       </div>
@@ -489,12 +591,12 @@
     <section class="result-section mb-5">
       <div class="container">
         <div class="row">
-          <div class="col-xl-6 offset-xl-3 block_seads">
+          <div class="col-xl-6 col-lg-6 offset-lg-3 offset-xl-3 block_seads">
             <p class="result_header">Программа курса</p>
           </div>
         </div>
         <div class="row">
-          <div class="col-xl-8 offset-xl-2">
+          <div class="col-xl-8 col-lg-8 offset-lg-2 offset-xl-2">
             <p class="result_p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
               et dolore magna aliqua. Ut enim ad minim veniam, qui</p>
           </div>
@@ -509,25 +611,25 @@
 
 
           <div class="row">
-              <div class="col-xl-4">
+              <div class="col-xl-4 col-lg-4">
                 <div class="block_card">
                   <div class="row">
 
                    
 
-                    <div class="col-xl-12">
+                    <div class="col-xl-12 col-lg-12">
                       <div class="row">
-                        <div class="col-xl-6">
+                        <div class="col-xl-6 col-lg-6">
                           <img class="img-corona" src="img/card-corona.png" alt="">
                          
                         </div>
-                        <div class="col-xl-6">
+                        <div class="col-xl-6 col-lg-6">
                           <p class="card_header mt-5">1. Введение</p>
                         </div>
                       </div>
                     </div>
 
-                    <div class="col-xl-10 offset-xl-1">
+                    <div class="col-xl-10 col-lg-10 offset-lg-1 offset-xl-1">
                       <div class="card_body">
   
                         <ul>
@@ -547,15 +649,15 @@
                   </div>
                 </div>
               </div>
-              <div class="col-xl-4">
+              <div class="col-xl-4 col-lg-4">
                 <div class="block_card">
                   <div class="row">
-                    <div class="col-xl-6 offset-xl-6 mt-5">
+                    <div class="col-xl-6 col-lg-6 offset-lg-6 offset-xl-6 mt-5">
                       <p class="card_header">2. Введение</p>
                     </div>
-                    <div class="col-xl-12">
+                    <div class="col-xl-12 col-lg-12">
                       <div class="row">
-                        <div class="col-xl-8">
+                        <div class="col-xl-8 col-lg-8">
                           <div class="card_body">
                             
                             <ul>
@@ -574,7 +676,7 @@
                                 
                                 UI/UX и веб-дизайном
                                 <div class="row">
-                                  <div class="col-xl-3 offset-xl-8">
+                                  <div class="col-xl-3 col-lg-3 offset-lg-8 offset-xl-8">
                                     <img class="img-design" src="img/PUT_YOUR_DESIGN_HERE.png" alt="">
                                   </div>
                                 </div>
@@ -604,18 +706,18 @@
                   </div>
                 </div>
               </div>
-              <div class="col-xl-4">
+              <div class="col-xl-4 col-lg-4">
                 <div class="block_card">
-                  <div class="col-xl-2 offset-xl-8">
+                  <div class="col-xl-2 col-lg-2 offset-lg-8 offset-xl-8">
                     <img class="img-pen" src="img/Pen.svg" alt="">
                   </div>
                   <div class="row">
                     
-                      <div class="col-xl-8 offset-xl-1 mt-5">
+                      <div class="col-xl-8 col-lg-8 offset-lg-1 offset-xl-1 mt-5">
                         
                         <p class="card_header">3. Основы дизайна</p>
                     </div>
-                    <div class="col-xl-7 ">
+                    <div class="col-xl-7 col-lg-7">
                       <div class="card_body">
   
                         <ul>
@@ -634,7 +736,7 @@
                       
                        
                     </div>
-                    <div class="col-xl-2">
+                    <div class="col-xl-2 col-lg-2">
                       <img src="img/Notebook.svg" alt="">
                       <img src="img/money.png" class="img_money" alt="">
                     </div>
@@ -645,14 +747,14 @@
 
 
           <div class="row mt-3">
-            <div class="col-xl-4">
+            <div class="col-xl-4 col-lg-4">
               <div class="block_card">
                
                 <div class="row">
-                  <div class="col-xl-6 offset-xl-6 mt-5">
+                  <div class="col-xl-6 col-lg-6 offset-lg-6 offset-xl-6 mt-5">
                     <p class="card_header">1. Введение</p>
                   </div>
-                  <div class="col-xl-10 offset-xl-1">
+                  <div class="col-xl-10 col-lg-10 offset-lg-1 offset-xl-1">
                     <div class="card_body">
 
                       <ul>
@@ -674,13 +776,13 @@
                 
               </div>
             </div>
-            <div class="col-xl-4">
+            <div class="col-xl-4 col-lg-4">
               <div class="block_card">
                 <div class="row">
-                  <div class="col-xl-6 offset-xl-6 mt-5">
+                  <div class="col-xl-6 col-lg-6 offset-lg-6 offset-xl-6 mt-5">
                     <p class="card_header">2. Введение</p>
                   </div>
-                  <div class="col-xl-10 offset-xl-1">
+                  <div class="col-xl-10 col-lg-10 offset-lg-1 offset-xl-1">
                     <div class="card_body">
 
                       <ul>
@@ -700,13 +802,13 @@
                 </div>
               </div>
             </div>
-            <div class="col-xl-4">
+            <div class="col-xl-4 col-lg-4">
               <div class="block_card">
                 <div class="row">
-                  <div class="col-xl-8 offset-xl-4 mt-5">
+                  <div class="col-xl-8 col-lg-8 offset-lg-4 offset-xl-4 mt-5">
                     <p class="card_header">3. Основы дизайна</p>
                   </div>
-                  <div class="col-xl-10 offset-xl-1">
+                  <div class="col-xl-10 col-lg-10 offset-lg-1 offset-xl-1">
                     <div class="card_body">
 
                       <ul>
@@ -736,12 +838,12 @@
     <section class="result-section mb-5">
       <div class="container">
         <div class="row">
-          <div class="col-xl-6 offset-xl-3">
+          <div class="col-xl-6 col-lg-6 offset-lg-3 offset-xl-3">
             <p class="result_header">Преподаватель курса</p>
           </div>
         </div>
         <div class="row">
-          <div class="col-xl-8 offset-xl-2">
+          <div class="col-xl-8 col-lg-8 offset-lg-2 offset-xl-2">
             <p class="result_p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
               et dolore magna aliqua. Ut enim ad minim veniam, qui</p>
           </div>
@@ -754,7 +856,7 @@
     <section class="works-section">
       <div class="container">
         <div class="row">
-          <div class="col-xl-1 block_wrap">
+          <div class="col-xl-1 col-lg-1 block_wrap">
           
             <div class="text_block">
               <p class="view_profile">Посмотреть все работы
@@ -765,7 +867,7 @@
               </p>
             </div>
 
-              <img src="img/logo_works.svg" alt="" class="mt-4">
+              <img class="logo__works" src="img/logo_works.svg" alt="" class="mt-4">
 
 
 
@@ -777,11 +879,11 @@
 
 
           </div>
-          <div class="col-xl-4">
+          <div class="col-xl-4 col-lg-4">
             <div class="block_white"></div>
             <img  src="img/resume.svg" alt="">
           </div>
-          <div class="col-xl-7">
+          <div class="col-xl-7 col-lg-7">
             <div class="slider_block">
               <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
                 <div class="carousel-inner">
@@ -811,10 +913,10 @@
 
 
             <div class="row">
-              <div class="col-xl-5 offset-xl-2 youTube">
-                <img src="img/youtube.svg" alt="">
+              <div class="col-xl-5 col-lg-5 offset-lg-2 offset-xl-2 youTube">
+                <img class="youtubeImg" src="img/youtube.svg" alt="">
               </div>
-              <div class="col-xl-5">
+              <div class="col-xl-5 col-lg-5">
                <div class="link_public">
                 <p>Посмотри рабоыт и
                   подпишись на <a href="#">наш канал</a></p>
@@ -833,8 +935,9 @@
     <section class="result-section mb-5 mt-5">
       <div class="container">
         <div class="row">
-          <div class="col-xl-8 offset-xl-2">
+          <div class="col-xl-8 col-lg-8 offset-lg-2 offset-xl-2">
             <p class="result_p">Создает: Лендинги, сайты, презентации, коробки для продукции, логотипы и прочее
+              <br>
               Создала более 1000 дизайнов.</p>
           </div>
         </div>
@@ -848,11 +951,11 @@
     <section class="format-study-section">
       <div class="container">
         <div class="row">
-          <div class="col-xl-3 offset-xl-1">
+          <div class="col-xl-3 col-lg-3 offset-lg-1 offset-xl-1">
             <p class="format_header">Выберите удобный 
               формат обучения</p>
           </div>
-          <div class="col-xl-6 offset-xl-2 mt-3">
+          <div class="col-xl-6 col-lg-6 offset-lg-2 offset-xl-2 mt-3">
             <p class="format_descr">Мы разделили курс на 2 формата, по итогам курса не зависимо от пакета 
               вы будете уметь создавать портфолио для себя. разница пакетов заключается 
               в усиленной обратной связи от преподавателя и личное 
@@ -864,114 +967,57 @@
 
 
     <section class="format-card-section" id="service">
-      <div class="container">
+      <div class="container-fluid">
         <div class="row">
 
 
-          <div class="col-xl-3 block_format">
-            <p class="format_header">Самостоятельный</p>
-            <ul class="list_descr mt-4">
+          <div class="col-xl-4 col-lg-4">
 
-              <div class="row">
-                <div class="col-xl-1">
-                  <img class="mt-2" src="img/item_cicle.png" alt="">
-                  <img style="margin-top: 10px;" src="img/item_cicle.png" alt="">
-                  <img style="margin-top: 30px;" src="img/item_cicle.png" alt="">
-                </div>
-                <div class="col-xl-10">
-                  <li>Доступ ко всем основным модулям курса</li>
-                  <li>Доступ в общий чат со мной и другими участниками</li>
-                  <li>Проверка работ </li>
-                  <li class="dis">Проверка домашних заданий в 
-                    прямом эфире и поддержка 24/7</li>
-                  <li class="dis">Модуль с поиском клиента</li>
-                  <li class="dis">Возможность попасть в команду </li>
-                  <li class="dis">Месяц поддержки после окончания курса</li>
-                  <li class="dis">Возможность попасть в команду </li>
-                  <li class="dis">Личные созвоны и отдельный чат </li>
-                </div>
-              </div>
-          </div>
+<div class="block_format">
+  <p class="format_header">Самостоятельный</p>
+  <ul class="list_descr mt-4">
 
-          <div class="col-xl-3 offset-xl-1 block_format">
-            <p class="format_header">С поддержкой</p>
-            <ul class="list_descr mt-4">
-              <div class="row">
-                <div class="col-xl-1">
-                  <img class="mt-2" src="img/item_cicle.png" alt="">
-                  <img style="margin-top: 10px;" src="img/item_cicle.png" alt="">
-                  <img style="margin-top: 30px;" src="img/item_cicle.png" alt="">
-                  <img style="margin-top: 20px;" src="img/item_cicle.png" alt="">
-                  <img style="margin-top: 33px;" src="img/item_cicle.png" alt="">
-                  <img style="margin-top: 20px;" src="img/item_cicle.png" alt="">
-                  <img style="margin-top: 17px;" src="img/item_cicle.png" alt="">
-                </div>
-                <div class="col-xl-10">
-                  <li>Доступ ко всем основным модулям курса</li>
-                  <li>Доступ в общий чат со мной и другими участниками</li>
-                  <li>Проверка работ </li>
-                  <li>Проверка домашних заданий в 
-                    прямом эфире и поддержка 24/7</li>
-                  <li>Модуль с поиском клиента</li>
-                  <li>Возможность попасть в команду </li>
-                  <li>Месяц поддержки после окончания курса</li>
-                  <li class="dis">Возможность попасть в команду </li>
-                  <li class="dis">Личные созвоны и отдельный чат </li>
-                </div>
-              </div>
-            </ul>
-          </div>
+    <div class="row">
+      <div class="col-xl-1 col-lg-1">
+        <img class="mt-2" src="img/item_cicle.png" alt="">
+        <img style="margin-top: 10px;" src="img/item_cicle.png" alt="">
+        <img style="margin-top: 30px;" src="img/item_cicle.png" alt="">
+      </div>
+      <div class="col-xl-10 col-lg-10">
+        <li>Доступ ко всем основным модулям курса</li>
+        <li>Доступ в общий чат со мной и другими участниками</li>
+        <li>Проверка работ </li>
+        <li class="dis">Проверка домашних заданий в 
+          прямом эфире и поддержка 24/7</li>
+        <li class="dis">Модуль с поиском клиента</li>
+        <li class="dis">Возможность попасть в команду </li>
+        <li class="dis">Месяц поддержки после окончания курса</li>
+        <li class="dis">Возможность попасть в команду </li>
+        <li class="dis">Личные созвоны и отдельный чат </li>
+      </div>
+    </div>
+  </ul>
+</div>
 
-          <div class="col-xl-3 offset-xl-1 block_format" style="border-right: 2px solid #f8eacf;">
-            <p class="format_header">Турбо VIP</p>
-            <ul class="list_descr mt-4">
-              <div class="row">
-                <div class="col-xl-1">
-                  <img class="mt-2" src="img/item_cicle.png" alt="">
-                  <img style="margin-top: 10px;" src="img/item_cicle.png" alt="">
-                  <img style="margin-top: 30px;" src="img/item_cicle.png" alt="">
-                  <img style="margin-top: 20px;" src="img/item_cicle.png" alt="">
-                  <img style="margin-top: 33px;" src="img/item_cicle.png" alt="">
-                  <img style="margin-top: 20px;" src="img/item_cicle.png" alt="">
-                  <img style="margin-top: 17px;" src="img/item_cicle.png" alt="">
-                  <img style="margin-top: 13px;" src="img/item_cicle.png" alt="">
-                  <img style="margin-top: 16px;" src="img/item_cicle.png" alt="">
-                </div>
-                <div class="col-xl-10">
-                  <li>Доступ ко всем основным модулям курса</li>
-                  <li>Доступ в общий чат со мной и другими участниками</li>
-                  <li>Проверка работ </li>
-                  <li>Проверка домашних заданий в 
-                    прямом эфире и поддержка 24/7</li>
-                  <li>Модуль с поиском клиента</li>
-                  <li>Возможность попасть в команду </li>
-                  <li>Месяц поддержки после окончания курса</li>
-                  <li>Возможность попасть в команду </li>
-                  <li>Личные созвоны и отдельный чат </li>
-                </div>
-              </div>
-            </ul>
-          </div>
-        </div>
+         
 
 
-        <div class="row">
-          <div class="col-xl-3">
-            <p class="start_header mt-3">Самостоятельный</p>
+            <div class="under__card__block">
+              <p class="start_header mt-3">Самостоятельный</p>
             <div class="row">
              <div class="block_data_wrap">
-              <div class="col-xl-3 block_data">
+              <div class="col-xl-3 col-lg-3 block_data">
                 <p class="data_p">20 февраля 2021</p>
               </div>
              </div>
             </div>
            <div class="row">
-            <div class="col-xl-12">
+            <div class="col-xl-12 col-lg-12">
               <p class="cost_heder">Стоимость</p>
             </div>
            </div>
            <div class="row">
-            <div class="col-xl-12 block">
+            <div class="col-xl-12 col-lg-12 block">
               <div class="block_price pt-3">
                <p class="price">40 000₽</p>
 
@@ -980,73 +1026,158 @@
             </div>
           </div>
           <div class="row">
-            <div class="col-xl-12 block_free_place">
+            <div class="col-xl-12 col-lg-12 block_free_place">
               <p class="free_place">Свободных мест</p>
               <p class="count_free">4 из 10</p>
             </div>
           </div>
+            </div>
+
+
           </div>
-          <div class="col-xl-3 offset-xl-1">
-            <p class="start_header mt-3">Самостоятельный</p>
+
+          <div class="col-xl-4 col-lg-4">
+
+<div class="block_format">
+  <p class="format_header">С поддержкой</p>
+  <ul class="list_descr mt-4">
+    <div class="row">
+      <div class="col-xl-1 col-lg-1">
+        <img class="mt-2" src="img/item_cicle.png" alt="">
+        <img style="margin-top: 10px;" src="img/item_cicle.png" alt="">
+        <img style="margin-top: 30px;" src="img/item_cicle.png" alt="">
+        <img style="margin-top: 20px;" src="img/item_cicle.png" alt="">
+        <img style="margin-top: 33px;" src="img/item_cicle.png" alt="">
+        <img style="margin-top: 20px;" src="img/item_cicle.png" alt="">
+        <img style="margin-top: 17px;" src="img/item_cicle.png" alt="">
+      </div>
+      <div class="col-xl-10 col-lg-10">
+        <li>Доступ ко всем основным модулям курса</li>
+        <li>Доступ в общий чат со мной и другими участниками</li>
+        <li>Проверка работ </li>
+        <li>Проверка домашних заданий в 
+          прямом эфире и поддержка 24/7</li>
+        <li>Модуль с поиском клиента</li>
+        <li>Возможность попасть в команду </li>
+        <li>Месяц поддержки после окончания курса</li>
+        <li class="dis">Возможность попасть в команду </li>
+        <li class="dis">Личные созвоны и отдельный чат </li>
+      </div>
+      
+    </div>
+  </ul>
+</div>
+
+
+         
+
+            <div class="under__card__block">
+              <p class="start_header mt-3">Самостоятельный</p>
             <div class="row">
-              <div class="block_data_wrap">
-                <div class="col-xl-3 block_data">
-                  <p class="data_p">20 февраля 2021</p>
-                </div>
-               </div>
-            </div>
-            <div class="row">
-              <div class="col-xl-12">
-                <p class="cost_heder">Стоимость</p>
+             <div class="block_data_wrap">
+              <div class="col-xl-3 col-lg-3 block_data">
+                <p class="data_p">20 февраля 2021</p>
               </div>
-            </div>
-            <div class="row">
-              <div class="col-xl-12 block">
-                <div class="block_price pt-3">
-                 <p class="price">60 000₽</p>
- 
-                 <p class="descr_price">Оплата частями по рассрочке</p>
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-xl-12 block_free_place">
-                <p class="free_place">Свободных мест</p>
-                <p class="count_free">4 из 10</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-xl-3 offset-xl-1 ">
-            <p class="start_header mt-3">Самостоятельный</p>
-            <div class="row">
-              <div class="block_data_wrap">
-                <div class="col-xl-3 block_data">
-                  <p class="data_p">20 февраля 2021</p>
-                </div>
-               </div>
+             </div>
             </div>
            <div class="row">
-            <div class="col-xl-12">
+            <div class="col-xl-12 col-lg-12">
               <p class="cost_heder">Стоимость</p>
             </div>
            </div>
            <div class="row">
-             <div class="col-xl-12 block">
-               <div class="block_price pt-3">
-                <p class="price">115 000₽</p>
+            <div class="col-xl-12 col-lg-12 block">
+              <div class="block_price pt-3">
+               <p class="price">115 000₽</p>
 
-                <p class="descr_price">Оплата частями по рассрочке</p>
-               </div>
+               <p class="descr_price">Оплата частями по рассрочке</p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xl-12 col-lg-12 block_free_place">
+              <p class="free_place">Свободных мест</p>
+              <p class="count_free">4 из 10</p>
+            </div>
+          </div>
+            </div>
+
+
+          </div>
+
+          <div class="col-xl-4 col-lg-4">
+
+
+<div class="block_format">
+  <p class="format_header">Турбо VIP</p>
+  <ul class="list_descr mt-4">
+    <div class="row">
+      <div class="col-xl-1 col-lg-1">
+        <img class="mt-2" src="img/item_cicle.png" alt="">
+        <img style="margin-top: 10px;" src="img/item_cicle.png" alt="">
+        <img style="margin-top: 30px;" src="img/item_cicle.png" alt="">
+        <img style="margin-top: 20px;" src="img/item_cicle.png" alt="">
+        <img style="margin-top: 33px;" src="img/item_cicle.png" alt="">
+        <img style="margin-top: 20px;" src="img/item_cicle.png" alt="">
+        <img style="margin-top: 17px;" src="img/item_cicle.png" alt="">
+        <img style="margin-top: 13px;" src="img/item_cicle.png" alt="">
+        <img style="margin-top: 16px;" src="img/item_cicle.png" alt="">
+      </div>
+      <div class="col-xl-10 col-lg-10">
+        <li>Доступ ко всем основным модулям курса</li>
+        <li>Доступ в общий чат со мной и другими участниками</li>
+        <li>Проверка работ </li>
+        <li>Проверка домашних заданий в 
+          прямом эфире и поддержка 24/7</li>
+        <li>Модуль с поиском клиента</li>
+        <li>Возможность попасть в команду </li>
+        <li>Месяц поддержки после окончания курса</li>
+        <li>Возможность попасть в команду </li>
+        <li>Личные созвоны и отдельный чат </li>
+      </div>
+    </div>
+  </ul>
+</div>
+
+
+            
+
+
+            <div class="under__card__block">
+              <p class="start_header mt-3">Самостоятельный</p>
+            <div class="row">
+             <div class="block_data_wrap">
+              <div class="col-xl-3 col-lg-3 block_data">
+                <p class="data_p">20 февраля 2021</p>
+              </div>
              </div>
+            </div>
+           <div class="row">
+            <div class="col-xl-12 col-lg-12">
+              <p class="cost_heder">Стоимость</p>
+            </div>
            </div>
            <div class="row">
-             <div class="col-xl-12 block_free_place">
-               <p class="free_place">Свободных мест</p>
-               <p class="count_free">4 из 10</p>
-             </div>
-           </div>
+            <div class="col-xl-12 col-lg-12 block">
+              <div class="block_price pt-3">
+               <p class="price">40 000₽</p>
+
+               <p class="descr_price">Оплата частями по рассрочке</p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xl-12 col-lg-12 block_free_place">
+              <p class="free_place">Свободных мест</p>
+              <p class="count_free">4 из 10</p>
+            </div>
+          </div>
+            </div>
+
+
           </div>
         </div>
+
       </div>
     </section>
 
@@ -1054,24 +1185,30 @@
     <section class="footer-section">
       <div class="container-fluid">
         <div class="row">
-          <div class="col-xl-12">
+          <div class="col-xl-12 col-lg-12">
 
           </div>
         </div>
       </div>
     </section>
 
-
-
-
-
     
     </div>
-  
-  
-  
-  
 
+
+
+    <!-- jQuery -->
+
+    <script src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
+
+    <!-- Scripts Bootsrtap -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+
+    <!-- MyScript JS -->
+  
+    <script src="js/script.js"></script>
+  
 	
 </body>
 </html>

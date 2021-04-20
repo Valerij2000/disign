@@ -29,3 +29,31 @@ btn.on('click', function(e) {
   $('html, body').animate({scrollTop:0}, '300');
 });
 
+
+// Block Card Next
+
+
+const arrowNext = document.querySelector('#arrowNext');
+const blockCard = document.querySelectorAll('.block_card__');
+const blockCardNext = document.querySelectorAll('.block_card_next');
+
+
+arrowNext.addEventListener('click', () => {
+
+
+  for (card of blockCard) {
+
+    card.style.display = (card.style.display == 'none') ? 'inline-block' : 'none';
+    
+    for (cardNext of blockCardNext) {
+
+      cardNext.style.display = (card.style.display == 'none') ? 'inline-block' : 'none';
+
+     }
+
+  }
+
+  
+
+
+})
